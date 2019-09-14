@@ -56,7 +56,7 @@ elif sys.platform == "win32":
 	P = ''  # Random color
 
 def banner():
-	print (RR+'\n              Hash-Cracker'+WW+' 3.0.1')
+	print (RR+'\n              Hash-Cracker'+WW+' 1.0')
 	print (W+'  ------------------------------------------')
 	print (P+'  88  88    db    .dP"Y8 88  88 88888 88""Yb ')
 	print (P+'  88  88   dPYb   `Ybo." 88  88 88__  88__dP ')
