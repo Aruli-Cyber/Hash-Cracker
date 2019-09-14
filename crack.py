@@ -1,16 +1,16 @@
 #! usr/bin/python2
 
 """
-__Author__ = Ci Ku ~ debby anggraini a.k.a xnver404
+__Author__ = Aruli-Cyber ~ Aruli-Azmi ~ Alpha404
 __Name__ = hasher
-__version__ = 3.0.1 (alpha)
+__version__ = 1.0 (beta)
 __Code__ = python
-__Github__ = https://github.com/ciku370
-__Date__ = 21 - 4 - 2018
-__Team__ = Blackhole Security
-__License__ = GNU General Public License V.3
+__Github__ = https://github.com/Aruli-Cyber
+__Date__ = 14 - 9 - 2019
+__Team__ = HACK ID
+__License__ = GNU General Public License V.1
 
-(c) debby anggraini 2018
+(c) Aruli Azmi 2019
 
 """
 
@@ -56,7 +56,7 @@ elif sys.platform == "win32":
 	P = ''  # Random color
 
 def banner():
-	print (RR+'\n              Hash Cracker'+WW+' 3.0.1')
+	print (RR+'\n              Hash-Cracker'+WW+' 3.0.1')
 	print (W+'  ------------------------------------------')
 	print (P+'  88  88    db    .dP"Y8 88  88 88888 88""Yb ')
 	print (P+'  88  88   dPYb   `Ybo." 88  88 88__  88__dP ')
@@ -70,12 +70,12 @@ def info():
 	print (Y+"\n 0{======================"+W+" INFO "+Y+"=======================}0")
 	print (Y+" |"+B+" ["+R+"="+B+"] "+W+"Name     "+C+":"+W+" Hasher"+Y+"                               |")
 	print (Y+" |"+B+" ["+R+"="+B+"] "+W+"Code     "+C+":"+W+" python"+Y+"                               |")
-	print (Y+" |"+B+" ["+R+"="+B+"] "+W+"Version  "+C+":"+W+" 3.0.1 (alpha)"+Y+"                        |")
-	print (Y+" |"+B+" ["+R+"="+B+"] "+W+"Author   "+C+":"+W+" Ci Ku "+R+"a.k.a "+W+"Xnver404"+Y+"                 |")
-	print (Y+" |"+B+" ["+R+"="+B+"] "+W+"Email    "+C+":"+W+" XnVer404@gmail.com"+Y+"                   |")
-	print (Y+" |"+B+" ["+R+"="+B+"] "+W+"Github   "+C+":"+W+" https://github.com/ciku370"+Y+"           |")
-	print (Y+" |"+B+" ["+R+"="+B+"] "+W+"Date     "+C+":"+W+" 23 - 02 - 2018"+Y+"                       |")
-	print (Y+" |"+B+" ["+R+"="+B+"] "+W+"Team     "+C+":"+W+" Blackhole Security"+Y+"                   |")
+	print (Y+" |"+B+" ["+R+"="+B+"] "+W+"Version  "+C+":"+W+" 1.0 (beta)"+Y+"                           |")
+	print (Y+" |"+B+" ["+R+"="+B+"] "+W+"Author   "+C+":"+W+" Aruli-Cyber "+R+"Aruli-Azmi "+W+"Alpha404"+Y+"                 |")
+	print (Y+" |"+B+" ["+R+"="+B+"] "+W+"Email    "+C+":"+W+" pangga270@gmail.com"+Y+"                  |")
+	print (Y+" |"+B+" ["+R+"="+B+"] "+W+"Github   "+C+":"+W+" https://github.com/Aruli-Cyber"+Y+"       |")
+	print (Y+" |"+B+" ["+R+"="+B+"] "+W+"Date     "+C+":"+W+" 14 - 09 - 2019"+Y+"                       |")
+	print (Y+" |"+B+" ["+R+"="+B+"] "+W+"Team     "+C+":"+W+" Hack ID"+Y+"		                    |")
 	print (Y+" 0{===================================================}0\n")
 	print (B+" ["+R+"="+B+"] "+W+"python2 "+sys.argv[0]+" -u           to update wordlist "+B+"["+R+"="+B+"]")
 	print (B+"\n ["+R+"="+B+"] "+W+"list of supported hashes :"+Y+" ["+W+"01"+Y+"] "+C+"md4")
@@ -109,7 +109,7 @@ def Update():
 
 		print (R+"["+W+"*"+R+"] "+R+"Curl Started ...\n"+W)
 
-		os.system("curl https://raw.githubusercontent.com/CiKu370/hasher/master/wordlist.txt -o wordlist.txt")
+		os.system("curl https://raw.githubusercontent.com/Aruli-Cyber/Hash-Cracker/master/wordlist.txt -o wordlist.txt")
 
 		print (R+"\n["+W+"*"+R+"] "+G+"download Finish\n"+W)
 		sys.exit()
